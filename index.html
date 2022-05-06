@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Estilos -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>The Instagram PostCard</title>
+    </head>
+    <body>
+
+        <nav class="navbar fixed-top navbar-light bg-light">
+            <span class="navbar-brand mb-0 ml-5 h1"><i class="fab fa-instagram"></i>Instagram</span>
+            <form class="form-inline">
+                <button data-toggle="modal" data-target="#exampleModal" class="btn btn-success" 
+                type="button">Nuevo Post</button>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" 
+                    aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-cog"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#">Event</a>
+                        <a class="dropdown-item" href="#">Next Event</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Cerrar sesión</a>
+                    </div>
+                </div>
+            </form>
+        </nav>
+
+
+        <nav aria-label="Page navigation example" class="margen">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link text-secondary" href="index.html">
+                    <i class="fas fa-th"></i></a>
+                </li>
+                <li class="page-item"><a class="page-link text-secondary" href="muro.html">■</a></li>
+            </ul>
+        </nav>
+ 
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col px-0 ml-1">
+                    <img src="https://picsum.photos/id/100/450/180">
+                </div>
+                <div class="col px-0">
+                    <img src="https://picsum.photos/id/1016/450/180">
+                </div>
+                <div class="col px-0">
+                    <img src="https://picsum.photos/id/1022/450/180">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid seg-ter">
+            <div class="row">
+                <div class="col px-0 ml-1">
+                    <img src="https://picsum.photos/id/1025/450/180">
+                </div>
+                <div class="col px-0">
+                    <img src="https://picsum.photos/id/1028/450/180">
+                </div>
+                <div class="col px-0">
+                    <img src="https://picsum.photos/id/1039/450/180">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid seg-ter">
+            <div class="row">
+                <div class="col px-0 ml-1">
+                    <img src="https://picsum.photos/id/1070/450/180">
+                </div>
+                <div class="col px-0">
+                    <img src="https://picsum.photos/id/1081/450/180">
+                </div>
+                <div class="col px-0">
+                    <img src="https://picsum.photos/id/145/450/180">
+                </div>
+            </div>
+        </div>
+    
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-light btn-sm">
+                            <i class="fas fa-camera"></i>
+                        </button>
+                        <button type="button" class="btn btn-light btn-sm">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-success">Publicar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </body>
+</html>

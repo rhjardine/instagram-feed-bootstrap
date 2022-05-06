@@ -1,0 +1,100 @@
+.navbar-brand{
+    font-family: 'oswald', cursive;
+    font-size: 25px;
+}
+.btn-light{
+    background-color: #ffffff;
+    color: #000000;
+}
+.navbar{
+    border-bottom: 1px solid lightgray;
+}
+.margen{
+    margin-top: 70px;
+}
+.seg-ter{
+    margin-top: 5px;
+}
+.card{
+    margin: 40px auto;
+    width: 600px;
+}
+.card-header{
+    padding: .75rem 15px;
+}
+.titulo{
+    display: inline-block;
+}
+.btn-link{
+    float: right;
+    color: gray;
+    padding-right: 0px;
+}
+.card-body{
+    padding: 15px;
+}
+.comentario{
+    color: #CDCCCC;
+    display: inline-block;
+    width: 88%;
+}
+
+
+
+
+
+/* body {
+    background: #171717;
+    font-size: 18px;
+}
+
+.postcard {
+    background: white;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+}
+
+.postcard-header {
+    overflow: hidden;
+}
+
+.postcard-header img{
+    max-width: 60px;
+    float: right;
+}
+
+.postcard-body {
+overflow: hidden;
+}
+
+input {
+font-size: 18px;
+}
+.postcard h1 {
+    margin: 0;
+}
+.left-part {
+    float: left;
+    background: red;
+    width: 50%;
+}
+.right-part {
+    float: right;
+    width: 50%;
+}
+.right-part input {
+    display: block;
+}
+.postcard-footer {
+    padding: 10px;
+    text-align: center;
+}
+
+.postcard-footer input {
+    [type=submit]{border: none; border-bottom: 1px solid gray; width: 240px; margin-bottom: 10px; padding: 5px;} */
